@@ -4,7 +4,7 @@ using System.Collections;
 
 public class NewCharSwitch : MonoBehaviour {
     public void NextScene() {
-    	Debug.Log("Scene switching : NewCharacter");
+    	Debug.Log("Scene switching to : NewCharacter");
         SceneManager.LoadScene("NewCharacter");
     }
 }
